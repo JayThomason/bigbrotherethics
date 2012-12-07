@@ -1,5 +1,15 @@
+header{
+  margin-bottom:5em;
+}
+
 body {
   font-family:Courier;
   width:45em;
   margin:10em 0em 10em 10em;
+}
+h1{
+  font-size:45px;
+}
+ul{
+  list-style-type:none;
 }
