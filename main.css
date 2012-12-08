@@ -1,7 +1,6 @@
 header{
   margin-bottom:5em;
 }
-
 body {
   font-family:Courier;
   width:45em;
@@ -27,5 +26,18 @@ ul{
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
   transform-origin: 0 100%;
+}
+.answer {
+  margin-left: 2em;
+}
+A {
+  text-decoration:none;
+}
+A:hover{
+  color:grey;
+  text-decoration:underline;
+}
+A:visited{
+  color:grey;
 }
 
