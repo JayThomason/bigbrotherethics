@@ -34,14 +34,12 @@ ul{
   margin-left: 2em;
 }
 A {
-  text-decoration:none;
-  color:darkgrey;
+  color:black;
 }
 A:hover{
-  color:grey;
-  text-decoration:underline;
+  color:darkgrey;
 }
 A:visited{
-  color:grey;
+  color:darkgrey;
 }
 
