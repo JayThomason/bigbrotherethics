@@ -32,6 +32,7 @@ ul{
 }
 A {
   text-decoration:none;
+  color:black;
 }
 A:hover{
   color:grey;
