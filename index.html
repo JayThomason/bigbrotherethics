@@ -4,10 +4,25 @@
     <meta charset="utf-8">
     <title>The Ethics of Big Brother</title>
     <link rel="stylesheet" href="main.css" type="text/css">
+    <script language="javascript" type="text/javascript">
+      function show()
+      {
+        document.getElementById("img1").style.background = "http://24.media.tumblr.com/tumblr_mcimw33ML51rfua2mo1_1280.jpg";
+      }
+
+      function hide()
+      {
+        document.getElementById("img1").style.background = "";
+      }
+  </script>
   </head>
-  <body>
+  <body id="img1">
     <header>
-      <h1>THE ETHICS OF BIG BROTHER</h1>
+      <a onMouseOver="show()" onMouseOut="hide()">
+        <div id="img1">
+          <h1>THE ETHICS OF BIG BROTHER</h1>
+        </div>
+      </a>
       <p>A report on the ethics of privacy and national security</p>
       <p>by Reed Landrum, Jay Thomason, and Dieterich Lawson</p>
       <p id="abstract">This report was part of a project for Stanford class CS181 in which we investigated the trade off between privacy and national security. In particular, we investigated the legal and ethical foundations of privacy, how privacy interacts with technology today and how the government is potentially violating our privacy. </p>
